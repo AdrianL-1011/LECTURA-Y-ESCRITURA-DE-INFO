@@ -1,6 +1,8 @@
+package es.mdc;
+import java.io.File;
 public class MainApp{
     public static void main(String[]args){
-        String rutaArcivo = "C:\Users\Trending Pc\Desktop\DAM1\Archivos JAVA\LECTURA Y ESCRITURA DE INFO"
+        String rutaArcivo = "ghfjgfh";
         
         if (FUtil.existe(rutaArcivo)){
             System.out.println("El archivo si existe");

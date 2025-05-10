@@ -2,10 +2,9 @@ package es.mdc;
 import java.io.File;
 public class FUtil {
 public static boolean existe(String filename) {
-File file = new File(filename);
-if (file.exists()) {
-return true;
+if (filename == null || filename.trim().isEmpty()) {
+    throw new IllegalArgumentException("La ruta del archivo no puede estar vacía ni contener solo espacios.");
 }
-return false;
+return true;
 }
 }
