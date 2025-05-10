@@ -2,7 +2,7 @@ package es.mdc;
 import java.io.File;
 public class MainApp{
     public static void main(String[]args){
-        String rutaArcivo = "ghfjgfh";
+        String rutaArcivo = "";
         
         if (FUtil.existe(rutaArcivo)){
             System.out.println("El archivo si existe");
